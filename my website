@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meri Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>Yeh meri pehli website hai.</p>
+  <button onclick="showAlert()">Click Me</button>
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meri Pehli Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>Yeh meri pehli HTML site hai</p>
+  <button onclick="showMessage()">Click Me</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meri Pehli Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>Yeh meri pehli HTML site hai</p>
+  <button onclick="showMessage()">Click Me</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+function showMessage() {
+  alert("Aapne button dabaya!");
+}
